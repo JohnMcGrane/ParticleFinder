@@ -15,13 +15,13 @@ class FilterView:
 	def __init__(self,width,height,directory, um = 50, large = False, particles = []):
 		"""Instantiate a FilterView object. 
 
-		Arguments: 
-		width 			-- the number of spectra along the x-axis of the field of view
-		width type		-- int
-		height 			-- the number of spectra along the y-axis of the field of view
-		height type		-- int
-		directory		-- the name of the directory containing all CSV files in the field of view 
-		directory type	-- str
+	Arguments: 
+	width 			-- the number of spectra along the x-axis of the field of view
+	width type		-- int
+	height 			-- the number of spectra along the y-axis of the field of view
+	height type		-- int
+	directory		-- the name of the directory containing all CSV files in the field of view 
+	directory type	-- str
 
     	Keyword arguments:
     	um 		   		-- the stepsize, in microns, between consecutive spectra in the field of view (default = 50)
