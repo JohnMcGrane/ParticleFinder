@@ -24,7 +24,7 @@ class FilterView:
 	directory type	-- str
 
     	Keyword arguments:
-    	um 		   		-- the stepsize, in microns, between consecutive spectra in the field of view (default = 50)
+    	um 		   	-- the stepsize, in microns, between consecutive spectra in the field of view (default = 50)
     	um type			-- int
     	large		 	-- if dealing with particles larger than 200 microns this should be set to True (default = False)
     	large type		-- bool
